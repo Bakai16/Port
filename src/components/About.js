@@ -99,7 +99,7 @@ const About = () => {
                                 My Portfolio
                             </a>
                         </div>
-                    </motion.div>
+                    </motion.div> 
                 </div>
             </div>
         </section>

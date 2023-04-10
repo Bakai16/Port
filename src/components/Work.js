@@ -13,10 +13,13 @@ const Work = () => {
         <section className="section" id="work">
             <div className="container mx-auto">
                 <div className="flex flex-col lg:flex-row gap-x-10">
-                    <motion.div variants={fadeIn("right", 0.3)}
+                    <motion.div
+                        variants={fadeIn("right", 0.3)}
                         initial="hidden"
                         whileInView={"show"}
-                        viewport={{ once: false, amount: 0.3 }} className="flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0">
+                        viewport={{ once: false, amount: 0.3 }}
+                        className="flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0"
+                    >
                         {/* text */}
                         <div>
                             <h2 className="h2 leading-tight text-accent">
@@ -56,7 +59,7 @@ const Work = () => {
                         </div>
                     </motion.div>
                     <motion.div
-                        variants={fadeIn("left", 0.2 )}
+                        variants={fadeIn("left", 0.2)}
                         initial="hidden"
                         whileInView={"show"}
                         viewport={{ once: false, amount: 0.3 }}
