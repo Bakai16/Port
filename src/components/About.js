@@ -50,10 +50,10 @@ const About = () => {
                                     {inView ? (
                                         <CountUp
                                             start={0}
-                                            end={13}
+                                            end={1}
                                             duration={3}
                                         />
-                                    ) : null}
+                                    ) : null} +
                                 </div>
                                 <div className="font-primary text-sm tracking-[2px]">
                                     Years of <br />
@@ -65,11 +65,11 @@ const About = () => {
                                     {inView ? (
                                         <CountUp
                                             start={0}
-                                            end={15}
+                                            end={30}
                                             duration={3}
                                         />
                                     ) : null}{" "}
-                                    k+
+                                    +
                                 </div>
                                 <div className="font-primary text-sm tracking-[2px]">
                                     Projects <br />
@@ -85,7 +85,7 @@ const About = () => {
                                             duration={3}
                                         />
                                     ) : null}{" "}
-                                    k+
+                                    +
                                 </div>
                                 <div className="font-primary text-sm tracking-[2px]">
                                     Satisfied <br />

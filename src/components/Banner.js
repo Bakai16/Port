@@ -2,7 +2,7 @@ import React from "react";
 // images
 import Image from "../assets/avatar.svg";
 // icons
-import { FaGithub, FaYoutube, FaDribbble, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaDribbble, FaLinkedin, FaInstagram } from "react-icons/fa";
 // type animation
 import { TypeAnimation } from "react-type-animation";
 // motion
@@ -74,17 +74,17 @@ const Banner = () => {
                             whileInView={"show"}
                             viewport={{ once: false, amount: 0.7}}
                             className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0">
-                            <a href="#">
+                            <a target="_blank" href="https://github.com/Bakai16">
                                 <FaGithub />
                             </a>
-                            <a href="#">
+                            <a target="_blank" href="https://www.linkedin.com/in/bakai-akylbekov/">
                                 <FaLinkedin />
                             </a>
-                            <a href="#">
-                                <FaYoutube />
-                            </a>
-                            <a href="#">
+                            <a target="_blank" href="https://leetcode.com/BakaiAkylbekov/">
                                 <FaDribbble />
+                            </a>
+                            <a target="_blank" href="https://www.instagram.com/bakai.akylbek0v/">
+                                <FaInstagram />
                             </a>
                         </motion.div>
                     </div>
